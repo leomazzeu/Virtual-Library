@@ -1,0 +1,58 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+/* Menu */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+    background-color: #212529;
+    color: white;
+    padding: 25px;
+}
+
+.menu button {
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 30px;
+    margin: 30px;
+}
+
+.container-md{
+    padding: 20px;
+}
+
+.card-text {
+    line-height: 5px;
+}
+
+.card-title {
+    margin-bottom: 20px;
+}

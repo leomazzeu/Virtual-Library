@@ -1,0 +1,19 @@
+#modal {
+    padding: 50px;
+    margin: auto auto;
+}
+
+#modal form:last-child {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#modal button {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.formInsertBook {
+    display: flex;
+    flex-direction: column;
+}
